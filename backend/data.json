@@ -1,0 +1,5 @@
+{
+    "names": ["Jack Reacher", "John Doe", "Alice Smith", "john"],
+    "origins": ["Bengaluru", "Mumbai", "Delhi", "Chennai"],
+    "destinations": ["New York", "San Francisco", "Los Angeles", "Paris"]
+}
