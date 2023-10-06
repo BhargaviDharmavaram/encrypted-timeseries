@@ -36,11 +36,17 @@ This project demonstrates real-time data display using React for the frontend, S
 Node.js and npm installed on your machine.
 Setup and Run
 1.**Navigate to the emitter directory:**
+
 cd emitter
+
 2.**Install the required dependencies:**
+
 npm install
+
 3.**Start the emitter to generate and send data:**
+
 node emitter.js
+
 The emitter will send random data to the Socket.IO server every 10 seconds.
 
 **Listener**
