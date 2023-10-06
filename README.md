@@ -36,7 +36,8 @@ This project demonstrates real-time data display using React for the frontend, S
 Node.js and npm installed on your machine.
 Setup and Run
 
-1.**Navigate to the emitter directory:**
+
+1. **Navigate to the emitter directory:**
 
 cd emitter
 
