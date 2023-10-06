@@ -5,11 +5,11 @@ const data = require('./data.json')
 
 // Function to generate an encrypted message
 function generateMessage(data) {
-    const { names, origins, destinations } = data
+    const { names, cities } = data
 
     const randomName = names[Math.floor(Math.random() * names.length)]
-    const randomOrigin = origins[Math.floor(Math.random() * origins.length)]
-    const randomDestination = destinations[Math.floor(Math.random() * destinations.length)]
+    const randomOrigin = cities[Math.floor(Math.random() * cities.length)]
+    const randomDestination = cities[Math.floor(Math.random() * cities.length)]
 
     const originalMessage = {
         name: randomName,
