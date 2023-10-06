@@ -32,8 +32,7 @@ This project demonstrates real-time data display using React for the frontend, S
 
 2.Listener: The listener connects to the Socket.IO server and receives real-time data. It decrypts the data and saves it to a MongoDB database, categorizing it by minute timestamps. The listener also provides an API endpoint to fetch historical data from the database.
 
-**Emitter**
-# Requirements
+# Emitter Requirements
 Node.js and npm installed on your machine.
 Setup and Run
 1.**Navigate to the emitter directory:**
@@ -50,9 +49,7 @@ node emitter.js
 
 The emitter will send random data to the Socket.IO server every 10 seconds.
 
-**Listener**
-
-# Requirements
+# Listener Requirements
 Node.js and npm installed on your machine.
 A running MongoDB server with a database where data will be stored.
 1. **Navigate to the listener directory:**
